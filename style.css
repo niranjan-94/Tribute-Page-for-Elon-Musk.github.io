@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,900');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Oswald", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-size: 14px;
+    background-color: #e0e0e0;
+    background-blend-mode: lighten;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+/* HEADER SECTION */
+.title {
+    color: white;
+    background-image: url("Elon-header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-left: 115px;
+}
+.title-name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 65px;
+    margin: 0px;
+    margin-bottom: 8px;
+}
+.subtitle{
+    font-size: 1.75rem;
+    margin: 0px;
+    margin-bottom: 8px;
+}
+.highlight {
+    color: #c62828;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    line-height: 1.2;
+}
+.section {
+    display: flex;
+    padding: 76px 121px 48px 121px;
+}
+#image {
+    max-width: 100%;
+    height: auto;
+}
+.section-right {
+    max-width: 50%;
+    padding: 0px 0px 0px 45px;
+    margin-top: 14px;
+}
+.section-title {
+    border-left: .2rem solid #c62828;
+    padding-left: .8rem;
+}
+.section-title h2 {
+    font-size: 2rem;
+    text-align: justify;
+    margin-top: 0px;
+    margin-bottom: 9px;
+}
+#tribute-info {
+    font-size: 19.2px;
+    text-align: justify;
+    line-height: 1.5;
+}
+.separator {
+    width: 50px;
+    height: 1px;
+    background: rgba(0,0,0,0.5);
+    margin: 1.4rem 0;
+}
+.section-left {
+    padding-right: 70px
+
+}
+#img-caption h4 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+.link-effect{
+    font-size: 14px;
+    text-decoration: none;
+    color: inherit;
+    padding: 10px;
+}
+.about {
+    background-color: white;
+    padding: 48px 121px 48px 121px;
+}
+.about h3 {
+    margin-top: 0px;
+    font-size: 1.75rem;
+    font-family: 'Poppins', sans-serif;
+}
+.about p {
+    font-size:1.2rem;
+    text-align: justify;
+    line-height: 1.8rem;
+    margin-top: 0px;
+    margin-bottom: 14px;
+}
+.about p a {
+    text-decoration:none;
+    color: #fe0000;
+}
+.quotes {
+    background: url(Elon-bottom.jpg);
+    background-size:cover;
+    background-position: right;
+    background-attachment: fixed;
+    padding: 48px;
+}
+.quotes-box {
+    border-left: .3rem solid #ef0000;
+    background: white;
+    margin: 0px 609px 0px 73px;
+    padding: 3rem 3rem 1rem 3rem;
+}
+.quotes-box h2 {
+    font-size: 2rem;
+    margin: 0px;
+}
+.quotes-box h4 {
+    font-size: 24px;
+    font-weight: 300!important;
+    margin: 0px;
+    padding-top: 48px;
+    margin-bottom: 8px;
+}
+#footer{
+    background: white;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+#footer h4 {
+    font-size: 24px;
+    margin: 0px auto;
+    width: 26%;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+#footer h4 a {
+    text-decoration: none;
+}
